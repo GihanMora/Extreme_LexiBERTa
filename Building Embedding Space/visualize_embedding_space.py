@@ -169,12 +169,12 @@ def tsne_vocab_plot(vocab_df):
 
     # print(vl_df)
     label_point(vl_df['tsne-2d-one'], vl_df['tsne-2d-two'], vl_df['label'], plt.gca())
-    plt.savefig(r'E:\Projects\Extreame_LexiBERTa\Vocabularies\vocab_v1.png')
+    plt.savefig(r'E:\Projects\Extreme_LexiBERTa\Vocabularies\vocab_v1.png')
 
     plt.show()
 
 
-vocab_df = pd.read_csv(r"E:\Projects\Extreame_LexiBERTa\Vocabularies\vocabulary_v1.csv")
+vocab_df = pd.read_csv(r"E:\Projects\Extreme_LexiBERTa\Vocabularies\vocabulary_v1.csv")
 print('emo',len(vocab_df))
 print(vocab_df.head())
 

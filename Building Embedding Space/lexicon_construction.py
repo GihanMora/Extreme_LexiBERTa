@@ -4,7 +4,7 @@ import ast
 import torch
 from transformers import AutoTokenizer, AutoModel
 
-df = pd.read_csv(r"E:\Projects\Extreame_LexiBERTa\Datasets\HateXplain Dataset\train_processed.csv")
+df = pd.read_csv(r"E:\Projects\Extreme_LexiBERTa\Datasets\HateXplain Dataset\train_processed.csv")
 print(df.columns)
 print(df['phrases'])
 print(df['class'].unique())
